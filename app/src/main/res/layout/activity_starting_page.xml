@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Starting_page">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="5dp"
+        android:background="@color/colorGreen">
+
+        <TextView
+            android:id="@+id/backbtn"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="14"
+            android:textSize="30sp"
+            android:gravity="center"
+            android:textColor="@color/colorB"
+            android:text="@string/backbtn"/>
+
+        <TextView
+            android:id="@+id/textitle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/new_survey"
+            android:textAllCaps="true"
+            android:textColor="@color/colorB"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:textSize="18sp"/>
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/personal_details"
+        android:padding="2dp"
+        android:textColor="@color/colorB"
+        android:background="@color/colorGreenLight"
+        android:textAlignment="center"
+        android:textSize="19sp"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/full_name"
+            android:textSize="18sp"
+            android:textColor="@color/colorM"
+            />
+        <EditText
+            android:id="@+id/full_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorM"
+            android:hint="@string/eg_minas_chalise"
+            android:inputType="text"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/date_of_birth"
+            android:drawableEnd="@drawable/ic_date"
+            android:textSize="18sp"
+            android:textColor="@color/colorM"
+            android:layout_marginTop="12dp" />
+
+        <EditText
+            android:id="@+id/dob"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorM"
+            android:hint="@string/eg_1998_07_16"
+            android:inputType="date"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/gender"
+            android:textSize="18sp"
+            android:id="@+id/gender"
+            android:textColor="@color/colorM"
+            android:layout_marginTop="12dp" />
+
+        <RadioGroup
+            android:id="@+id/radio_group"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/male"
+                android:layout_width="43dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:onClick="checkButton"
+                android:text="@string/male"
+                android:drawablePadding="5dp"
+                android:textColor="@color/colorM"
+                android:textSize="18sp" />
+
+            <RadioButton
+                android:id="@+id/female"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/female"
+                android:layout_weight="1"
+                android:textSize="18sp"
+                android:onClick="checkButton"
+                android:textColor="@color/colorM"/>
+
+            <RadioButton
+                android:id="@+id/other"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/other"
+                android:layout_weight="1"
+                android:onClick="checkButton"
+                android:textSize="18sp"
+                android:textColor="@color/colorM"/>
+
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/current_address"
+            android:drawableEnd="@drawable/ic_home"
+            android:textSize="18sp"
+            android:textColor="@color/colorM"
+            android:layout_marginTop="15dp"
+            />
+        <EditText
+            android:id="@+id/current_address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorM"
+            android:hint="@string/eg_srijna_nagar_bhaktapur"
+            android:inputType="text"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/phone_number"
+            android:drawableEnd="@drawable/ic_phone"
+            android:textSize="18sp"
+            android:textColor="@color/colorM"
+            android:layout_marginTop="12dp"
+            />
+        <EditText
+            android:id="@+id/phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorM"
+            android:hint="@string/eg_98xxxxxxxx"
+            android:inputType="phone"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/email_address"
+            android:drawableEnd="@drawable/ic_email_green"
+            android:textSize="18sp"
+            android:textColor="@color/colorM"
+            android:layout_marginTop="12dp"
+            />
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorM"
+            android:inputType="textEmailAddress"
+            android:hint="@string/eg_chaliseminas_gmail_com"
+            tools:ignore="TextFields" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/province_no"
+            android:textSize="18sp"
+            android:textColor="@color/colorM"
+            android:layout_marginTop="12dp"
+            />
+        <EditText
+            android:id="@+id/province"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorM"
+            android:inputType="number"
+            android:hint="@string/eg_5"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/district"
+            android:textSize="18sp"
+            android:textColor="@color/colorM"
+            android:layout_marginTop="12dp"
+            />
+        <EditText
+            android:id="@+id/district"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorM"
+            android:inputType="text"
+            android:hint="@string/eg_chitwan"/>
+
+
+
+        <Button
+            android:id="@+id/next"
+            android:layout_width="142dp"
+            android:layout_height="61dp"
+            android:text="@string/next"
+            android:textSize="19sp"
+            android:layout_marginTop="9dp"
+            android:textColor="@color/colorM"
+            android:padding="11dp"
+            android:textAllCaps="false"
+            android:layout_gravity="right" />
+
+    </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

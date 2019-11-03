@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Survey_List">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="5dp"
+        android:background="@color/colorGreen">
+
+        <TextView
+            android:id="@+id/backbtn"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="14"
+            android:textSize="30sp"
+            android:gravity="center"
+            android:textColor="@color/colorB"
+            android:text="@string/backbtn"/>
+
+        <TextView
+            android:id="@+id/textitle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/survey_list"
+            android:textAllCaps="false"
+            android:textColor="@color/colorB"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:textSize="18sp"/>
+
+    </LinearLayout>
+
+    <SearchView
+        android:id="@+id/search_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:queryHint="@string/search_here"
+        android:iconifiedByDefault="false"
+        android:background="@color/colorGreenLight">
+    </SearchView>
+
+    <ListView
+        android:id="@+id/surveylist"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="@color/colorlLightBlack"
+        android:dividerHeight="2dp"
+        android:elevation="5dp"
+        android:fadingEdgeLength="10dp"/>
+
+</LinearLayout>

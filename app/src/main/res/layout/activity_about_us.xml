@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".About_us"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="5dp"
+        android:background="@color/colorGreen">
+
+        <TextView
+            android:id="@+id/backbtn"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="14"
+            android:textSize="30sp"
+            android:gravity="center"
+            android:textColor="@color/colorB"
+            android:text="@string/backbtn"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/about_us"
+            android:textColor="@color/colorB"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:textSize="18sp"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:src="@drawable/logo"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/software_chasers"
+            android:textColor="#000"
+            android:padding="5dp"
+            android:textSize="19sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:background="@color/colorGreen">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/our_mission"
+            android:textColor="@color/colorB"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:textSize="18sp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="9dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/your_time"
+        android:textAlignment="center"
+        android:textColor="#000"
+        android:textSize="16sp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/steve_jobs"
+        android:textAlignment="center"
+        android:textColor="#000"
+        android:padding="7dp"
+        android:textSize="19sp" /></LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:background="@color/colorGreenLight">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/contact_uss"
+            android:textColor="@color/colorB"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:textSize="19sp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="16sp"
+            android:layout_gravity="center"
+            android:text="@string/contact_us" />
+    </LinearLayout>
+
+
+</LinearLayout>

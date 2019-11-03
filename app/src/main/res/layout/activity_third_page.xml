@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Third_page">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="5dp"
+        android:background="@color/colorGreen">
+
+        <TextView
+            android:id="@+id/textitle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/new_survey"
+            android:textAllCaps="true"
+            android:padding="8dp"
+            android:textColor="@color/colorB"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:textSize="18sp"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/water_pump_information"
+        android:padding="2dp"
+        android:textColor="@color/colorB"
+        android:background="@color/colorGreenLight"
+        android:textAlignment="center"
+        android:textSize="19sp"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/currently_using_water_pump"
+            android:textSize="18sp"
+            android:textColor="@color/colorM" />
+        <RadioGroup
+            android:id="@+id/radio_g"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/yes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/yes"
+                android:textSize="18sp"
+                android:onClick="usingwaterpump"
+                android:layout_weight="1"
+                android:textColor="@color/colorM"/>
+
+            <RadioButton
+                android:id="@+id/no"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/no"
+                android:layout_weight="1"
+                android:onClick="usingwaterpump"
+                android:textSize="18sp"
+                android:textColor="@color/colorM"/>
+
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/if_yes_tick_at_following"
+            android:textSize="17sp"
+            android:textColor="@color/colorPrimary"
+            android:layout_marginTop="16dp"
+            android:padding="4dp"
+            android:textAlignment="center"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/water_resources"
+            android:layout_marginTop="16dp"
+            android:textSize="18sp"
+            android:textColor="@color/colorM"/>
+
+       <RadioGroup
+           android:id="@+id/radio_g2"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="3dp"
+           android:orientation="horizontal">
+
+           <RadioButton
+               android:id="@+id/river"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="@string/river"
+               android:enabled="false"
+               android:onClick="waterresources"
+               android:layout_weight="1"
+               android:textSize="15sp"
+
+               android:textColor="@color/colorlLightBlack"/>
+           <RadioButton
+               android:id="@+id/canal"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="@string/canal"
+               android:layout_weight="1"
+               android:enabled="false"
+               android:textSize="15sp"
+               android:onClick="waterresources"
+               android:textColor="@color/colorlLightBlack"/>
+
+           <RadioButton
+               android:id="@+id/waterboring"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_weight="1"
+               android:text="@string/water_boring"
+               android:enabled="false"
+               android:onClick="waterresources"
+               android:textColor="@color/colorlLightBlack"
+               android:textSize="15sp" />
+
+       </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/type_of_pump"
+            android:layout_marginTop="14dp"
+            android:textSize="18sp"
+            android:textColor="@color/colorM"/>
+        <RadioGroup
+            android:id="@+id/radio_g3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/diesel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/diesel"
+                android:textSize="18sp"
+                android:onClick="pumptype"
+                android:layout_weight="1"
+                android:enabled="false"
+                android:textColor="@color/colorlLightBlack"/>
+
+            <RadioButton
+                android:id="@+id/electricity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/electricity"
+                android:layout_weight="1"
+                android:textSize="18sp"
+                android:enabled="false"
+                android:onClick="waterresources"
+                android:textColor="@color/colorlLightBlack"/>
+
+
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/approximate_expenditure_in_pump"
+            android:textSize="18sp"
+            android:textColor="@color/colorM"
+            android:layout_marginTop="12dp"/>
+
+        <EditText
+            android:id="@+id/monthlykharcha"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorM"
+            android:hint="@string/eg_10000"
+            android:enabled="false"
+            android:inputType="number"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/boring_size_in_inches"
+            android:textSize="18sp"
+            android:textColor="@color/colorM"
+            android:layout_marginTop="12dp"/>
+
+        <EditText
+            android:id="@+id/boringsize"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorM"
+            android:hint="@string/eg_5"
+            android:enabled="false"
+            android:inputType="number"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/farming_land"
+        android:padding="2dp"
+        android:textColor="@color/colorB"
+        android:background="@color/colorGreenLight"
+        android:textAlignment="center"
+        android:textSize="19sp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/type_of_land"
+            android:layout_marginTop="14dp"
+            android:textSize="18sp"
+            android:textColor="@color/colorM"/>
+        <RadioGroup
+            android:id="@+id/radio_g4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/dry"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/dry"
+                android:textSize="18sp"
+                android:layout_weight="1"
+                android:onClick="landtype"
+                android:textColor="@color/colorlLightBlack"/>
+
+            <RadioButton
+                android:id="@+id/irrigated"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/irrigated"
+                android:layout_weight="1"
+                android:textSize="18sp"
+                android:onClick="landtype"
+                android:textColor="@color/colorlLightBlack"/>
+
+
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/land_ownership"
+            android:layout_marginTop="14dp"
+            android:textSize="18sp"
+            android:textColor="@color/colorM"/>
+        <RadioGroup
+            android:id="@+id/radio_g5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/self"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/self"
+                android:textSize="18sp"
+                android:layout_weight="1"
+                android:onClick="ownership"
+                android:textColor="@color/colorlLightBlack"/>
+
+            <RadioButton
+                android:id="@+id/rented"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/rented"
+                android:layout_weight="1"
+                android:textSize="18sp"
+                android:onClick="ownership"
+                android:textColor="@color/colorlLightBlack"/>
+
+
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/area_of_land"
+            android:textSize="18sp"
+            android:textColor="@color/colorM"
+            android:layout_marginTop="9dp"/>
+
+        <EditText
+            android:id="@+id/areaofland"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorM"
+            android:hint="@string/eg_5_bigha"
+            android:inputType="text"/>
+        <Button
+            android:id="@+id/next"
+            android:layout_width="142dp"
+            android:layout_height="61dp"
+            android:layout_gravity="right"
+            android:layout_marginTop="8dp"
+            android:padding="11dp"
+            android:text="@string/next"
+            android:textAllCaps="false"
+            android:textColor="@color/colorM"
+            android:textSize="19sp" />
+
+
+    </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,167 @@
+<resources>
+    <string name="app_name">Farmer</string>
+    <string name="create_new_survey">Create New Survey</string>
+    <string name="survey_list">Survey List</string>
+    <string name="change_language">Change Language</string>
+    <string name="about_us">About Us</string>
+    <string name="welcome_minas">Welcome, Minas !</string>
+    <string name="contact_us">Phone No.: 9845986003 \n Address: Kathmandu, Nepal. \n Email:chaliseminas@gmail.com</string>
+    <string name="contact_uss">Contact Us</string>
+    <string name="steve_jobs">-Steve Jobs</string>
+    <string name="your_time">Your time is limited, so don\'t waste it living someone else\'s life. Don\'t be trapped by dogma - which is living with the results of other people\'s thinking.</string>
+    <string name="our_mission">Our Mission</string>
+    <string name="software_chasers">Software Chasers</string>
+    <string name="backbtn"><![CDATA[<]]></string>
+    <string name="new_survey">New Survey</string>
+    <string name="personal_details">Personal Details</string>
+    <string name="full_name">Full Name: *</string>
+    <string name="date_of_birth">Date of Birth: *</string>
+    <string name="gender">Gender: *</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="other">Other</string>
+    <string name="current_address">Current Address: *</string>
+    <string name="phone_number">Phone Number: *</string>
+    <string name="email_address">Email Address:</string>
+    <string name="province_no">Province No.: *</string>
+    <string name="district">District: *</string>
+    <string name="local_administration">Local Administration: *</string>
+    <string name="tol_gau">Tol/Gau: *</string>
+    <string name="ward_no">Ward No.: *</string>
+    <string name="next">Next Page</string>
+    <string name="eg_minas_chalise">eg. minas chalise</string>
+    <string name="eg_1998_07_16">eg. 1998/07/16</string>
+    <string name="eg_srijna_nagar_bhaktapur">eg. srijna nagar bhaktapur</string>
+    <string name="eg_98xxxxxxxx">eg. 98xxxxxxxx</string>
+    <string name="eg_chaliseminas_gmail_com">eg. chaliseminas@gmail.com</string>
+    <string name="family_and_address">Family and Address</string>
+    <string name="eg_bharatpur">eg. bharatpur</string>
+    <string name="eg_23">eg. 23</string>
+    <string name="eg_jagatpur">eg. jagatpur</string>
+    <string name="all_rights_reserved_s_c_2019">All Rights Reserved @ S.C. 2019</string>
+    <string name="family_and_income">Family, Income and Expenditure</string>
+    <string name="eg_5">eg. 5</string>
+    <string name="family_members_who_earn_money">Family Members: *</string>
+    <string name="family_members_who_don_t_earn">Family Members(who don\'t earn): *</string>
+    <string name="income_sources_besides_agricultural">Income Sources(besides Agriculture):</string>
+    <string name="no">No</string>
+    <string name="yes">Yes</string>
+    <string name="if_yes_estimated_income_per_month">If \'yes\', Estimated Income per Month</string>
+    <string name="eg_10000">eg. 10000</string>
+    <string name="jobs_or_occupaction">Jobs or Occupaction: Rs.</string>
+    <string name="business_rs">Business: Rs.</string>
+    <string name="others_rs">Others: Rs.</string>
+    <string name="estimated_expenditure_per_month">Estimated Expenditure per Month</string>
+    <string name="education_rs">Education: Rs.</string>
+    <string name="health_rs">Health: Rs.</string>
+    <string name="agricultural_word_rs">Agricultural Word: Rs.</string>
+    <string name="household_expenses_rs">Household Expenses: Rs.</string>
+    <string name="bank_loan_maintenance_rs">Bank Loan Maintenance: Rs.</string>
+    <string name="bank_maintenance_for_saving_rs">Bank Maintenance for Saving: Rs.</string>
+    <string name="eg_masters">eg. masters</string>
+    <string name="water_pump_information">Water Pump Information</string>
+    <string name="currently_using_water_pump">Currently using water pump?</string>
+    <string name="if_yes_tick_at_following">If \'yes\' Check the Following</string>
+    <string name="farming_land">Farming Land Information:</string>
+    <string name="water_resources">Water Resources:</string>
+    <string name="river">River</string>
+    <string name="canal">Canal</string>
+    <string name="drainage">Drainage</string>
+    <string name="lake_pound">Lake/Pound</string>
+    <string name="water_boring">Water Boring</string>
+    <string name="type_of_pump">Type of Pump:</string>
+    <string name="diesel">Diesel</string>
+    <string name="electricity">Electricity</string>
+    <string name="boring_size_in_inches">Boring Size(In inches):</string>
+    <string name="approximate_expenditure_in_pump">Approximate Expenditure in Pump:</string>
+    <string name="type_of_land">Type of Land:</string>
+    <string name="irrigated">Irrigated</string>
+    <string name="dry">Dry</string>
+    <string name="land_ownership">Land Ownership:</string>
+    <string name="self">Self</string>
+    <string name="rented">Rented</string>
+    <string name="area_of_land">Area of Land(Bigha/Katta/Ropani): </string>
+    <string name="eg_5_bigha">eg. 5 bigha</string>
+
+    <string name="prompt">Choose a crop</string>
+
+    <string name="type_livestock">Type of Livestock:</string>
+    <string name="industrial_crops">Industrial Crops:</string>
+
+    <string name="pulses">Pulses Crops:</string>
+    <string name="vegetable_crops">Vegetable Crops:</string>
+
+    <string name="food_crops">Food Crops:</string>
+    <string name="information_about_crops">Information About Crops</string>
+    <string name="area_bigha_katta_ropani">Area (Bigha/Katta/Ropani):</string>
+    <string name="eg_3_katta">eg. 3 Katta</string>
+    <string name="add">Add</string>
+    <string name="animal_husbandry">Animal Husbandry</string>
+    <string name="have_livestock">Have LiveStock ?</string>
+    <string name="if_yes_choose">If \'yes\' Choose</string>
+    <string name="no_of_animal">No of Animals</string>
+    <string name="do_you_sell_agricultural_products">Do you sell Agricultural Products ?</string>
+    <string name="if_yes">If yes</string>
+    <string name="nearnes_market_in_kilo_meter">Nearnes Market(In Kilo Meter):</string>
+    <string name="save_survey">Save Survey</string>
+    <string name="promptname">Choose a Province</string>
+
+    <string name="eg_chitwan">eg. Chitwan</string>
+    <string name="survey_name">Survey Name</string>
+
+    <string name="create">Create</string>
+    <string name="cancel">Cancel</string>
+
+    <string name="search_here">Search here..</string>
+    <string-array name="type_of_livestock">
+        <item name="cow">Cow</item>
+        <item name="Buffalo">Buffalo</item>
+        <item name="ox">OX</item>
+        <item name="goat">Goat</item>
+        <item name="sheep">Sheep</item>
+        <item name="chicken">Chicken</item>
+        <item name="duck">Duck</item>
+        <item name="pigeon">Pigeon</item>
+        <item name="other_animal">Other</item>
+    </string-array>
+    <string-array name="industrial_crop_spinner">
+        <item name="sugarcane">Sugarcane</item>
+        <item name="fish">Fish</item>
+    </string-array>
+    <string-array name="pulse_crop_spinner">
+        <item name="lentil">Lentil(Musuro)</item>
+        <item name="pigeon_pea">Pigeon Pea(Rahar)</item>
+        <item name="cowpea">Cowpea</item>
+        <item name="kidney_bean">Kidney Bean</item>
+    </string-array>
+    <string-array name="veg_crop_spinner">
+        <item name="patato">Patato</item>
+        <item name="tomato">Tomato</item>
+        <item name="cauliflower">Cauliflower</item>
+        <item name="cucumber">Cucumber</item>
+        <item name="capsicum">Capsicum</item>
+        <item name="mustard">Mustard</item>
+        <item name="cabbage">Cabbage</item>
+        <item name="onion">Onion</item>
+        <item name="garlic">Garlic</item>
+        <item name="carrot">Carrot</item>
+        <item name="brinjal">Brinjal</item>
+        <item name="lady_finger">Lady Finger</item>
+    </string-array>
+    <string-array name="food_crop_spinner">
+        <item name="chaite_rice">Chaite Rice</item>
+        <item name="monsoon_rice">Monsoon Rice</item>
+        <item name="maize">Maize</item>
+        <item name="wheat">Wheat</item>
+    </string-array>
+    <string-array name="province_spinner">
+        <item name="ProvinceNo1">Province No. 1</item>
+        <item name="ProvinceNo2">Province No. 2</item>
+        <item name="ProvinceNo3">Province No. 3</item>
+        <item name="ProvinceNo4">Province No. 4</item>
+        <item name="ProvinceNo5">Province No. 5</item>
+        <item name="ProvinceNo6">Province No. 6</item>
+        <item name="ProvinceNo7">Province No. 7</item>
+    </string-array>
+
+</resources>

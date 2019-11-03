@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Farmer</string>
+
+    <string name="create_new_survey">नयाँ सर्वेक्षण सिर्जना गर्नुहोस्</string>
+    <string name="survey_list">सर्वेक्षण सूची</string>
+    <string name="change_language">भाषा परिवर्तन गर्नुहोस्</string>
+    <string name="about_us">हाम्रोबारे</string>
+    <string name="welcome_minas">स्वागतम्, Minas !</string>
+
+
+    <string name="contact_us">Phone No.: 9845986003 \n Address: Kathmandu, Nepal. \n Email:chaliseminas@gmail.com</string>
+    <string name="contact_uss">हामीलाई सम्पर्क गर्नुहोस</string>
+    <string name="steve_jobs">-Steve Jobs</string>
+    <string name="your_time">Your time is limited, so don\'t waste it living someone else\'s life. Don\'t be trapped by dogma - which is living with the results of other people\'s thinking.</string>
+    <string name="our_mission">हाम्रो मिशन</string>
+    <string name="software_chasers">Software Chasers</string>
+    <string name="backbtn"><![CDATA[<]]></string>
+    <string name="new_survey">नयाँ सर्वेक्षण</string>
+    <string name="personal_details">व्यक्तिगत विवरणहरू</string>
+    <string name="full_name">पुरा नाम: *</string>
+    <string name="date_of_birth">जन्म मिति: *</string>
+    <string name="gender">लिंग: *</string>
+    <string name="male">पुरुष</string>
+    <string name="female">महिला</string>
+    <string name="other">अन्य</string>
+    <string name="current_address">हालको ठेगाना: *</string>
+    <string name="phone_number">फोन नम्बर: *</string>
+    <string name="email_address">इ-मेल:</string>
+    <string name="province_no">प्रान्त नं.: *</string>
+    <string name="district">जिल्ला: *</string>
+    <string name="local_administration">स्थानीय प्रशासन: *</string>
+    <string name="tol_gau">Tol/Gau: *</string>
+    <string name="ward_no">Ward No.: *</string>
+    <string name="next">अर्को पाना</string>
+    <string name="eg_minas_chalise">eg. minas chalise</string>
+    <string name="eg_1998_07_16">eg. 1998/07/16</string>
+    <string name="eg_srijna_nagar_bhaktapur">eg. srijna nagar bhaktapur</string>
+    <string name="eg_98xxxxxxxx">eg. 98xxxxxxxx</string>
+    <string name="eg_chaliseminas_gmail_com">eg. chaliseminas@gmail.com</string>
+    <string name="family_and_address">परिवार र ठेगाना</string>
+    <string name="eg_bharatpur">eg. bharatpur</string>
+    <string name="eg_23">eg. 23</string>
+    <string name="eg_jagatpur">eg. jagatpur</string>
+    <string name="all_rights_reserved_s_c_2019">All Rights Reserved @ S.C. 2019</string>
+    <string name="family_and_income">परिवार, आय र खर्च</string>
+    <string name="eg_5">eg. 5</string>
+    <string name="family_members_who_earn_money">परिवारका सदस्यहरु: *</string>
+    <string name="family_members_who_don_t_earn">Family Members(who don\'t earn): *</string>
+    <string name="income_sources_besides_agricultural">आय स्रोत (कृषि बाहेक):</string>
+    <string name="no">छैन</string>
+    <string name="yes">छ</string>
+    <string name="if_yes_estimated_income_per_month">यदि छ भने, प्रति महिना अनुमानित आय</string>
+    <string name="eg_10000">eg. 10000</string>
+    <string name="jobs_or_occupaction">रोजगार वा पेशा: रु.</string>
+    <string name="business_rs">व्यवसाय: रु.</string>
+    <string name="others_rs">अन्य: रु.</string>
+    <string name="estimated_expenditure_per_month">प्रति महिना अनुमानित खर्च</string>
+    <string name="education_rs">शिक्षा: रु.</string>
+    <string name="health_rs">स्वास्थ्य: रु.</string>
+    <string name="agricultural_word_rs">कृषि कार्य: रु.</string>
+    <string name="household_expenses_rs">घरेलु खर्च: रु.</string>
+    <string name="bank_loan_maintenance_rs">Bank Loan Maintenance: Rs</string>
+    <string name="bank_maintenance_for_saving_rs">Bank Maintenance for Saving: Rs</string>
+    <string name="eg_masters">eg. masters</string>
+    <string name="water_pump_information">पानी पम्प जानकारी</string>
+    <string name="currently_using_water_pump">हाल पानी पम्प प्रयोग गर्दै हुनुहुन्छ?</string>
+    <string name="if_yes_tick_at_following">यदि हुन्छ भने निम्न जाँच गर्नुहोस्</string>
+    <string name="farming_land">कृषि भूमि जानकारी:</string>
+    <string name="water_resources">जल स्रोत:</string>
+    <string name="river">नदी</string>
+    <string name="canal">नहर</string>
+    <string name="drainage">ड्रेनेज</string>
+    <string name="lake_pound">ताल/पाउन्ड</string>
+    <string name="water_boring">पानी बोरिंग</string>
+    <string name="type_of_pump">पम्पको प्रकार:</string>
+    <string name="diesel">डिजेल</string>
+    <string name="electricity">बिजुली</string>
+    <string name="boring_size_in_inches">बोरिंग आकार (इन्चमा):</string>
+    <string name="approximate_expenditure_in_pump">पम्पमा अनुमानित खर्च:</string>
+    <string name="type_of_land">जग्गाको प्रकार:</string>
+    <string name="irrigated">सिंचाइ गरिएको</string>
+    <string name="dry">सुक्खा</string>
+    <string name="land_ownership">जग्गा स्वामित्व:</string>
+    <string name="self">स्वयम</string>
+    <string name="rented">भाँडामा लिइएको</string>
+    <string name="area_of_land">जग्गा क्षेत्र (बिघा / कट्टा / रोपाणी): </string>
+    <string name="eg_5_bigha">eg. 5 bigha</string>
+
+    <string name="prompt">बाली छनौट गर्नुहोस्</string>
+
+    <string name="type_livestock">पशुपालनको प्रकार:</string>
+    <string name="industrial_crops">औद्योगिक बालीनाली:</string>
+
+    <string name="pulses">दाल बाली:</string>
+    <string name="vegetable_crops">तरकारी बाली:</string>
+
+    <string name="food_crops">खाद्य बाली:</string>
+    <string name="information_about_crops">बालीका बारे जानकारी</string>
+    <string name="area_bigha_katta_ropani">क्षेत्र (बिघा / कट्टा / रोपाणी):</string>
+    <string name="eg_3_katta">eg. 3 Katta</string>
+    <string name="add">थप्नुहोस्</string>
+    <string name="animal_husbandry">पशुपालन</string>
+    <string name="have_livestock">गाईवस्तु छ?</string>
+    <string name="if_yes_choose">यदि छ भने छनौट गर्नुहोस्</string>
+    <string name="no_of_animal">जनावरहरूको संख्या</string>
+    <string name="do_you_sell_agricultural_products">के तपाई कृषि उत्पादनहरु बेच्नुहुन्छ?</string>
+    <string name="if_yes">यदि बेच्नुहुन्छ भने</string>
+    <string name="nearnes_market_in_kilo_meter">नजिकैको बजार (किलो मीटरमा):</string>
+    <string name="save_survey">सर्वेक्षण बचत गर्नुहोस्</string>
+
+    <string name="promptname">प्रान्त छनौट गर्नुहोस्</string>
+    <string name="eg_chitwan">eg. Chitwan</string>
+
+    <string name="survey_name">सर्वेक्षण नाम</string>
+    <string name="create">सिर्जना गर्नुहोस्</string>
+    <string name="cancel">रद्द गर्नुहोस्</string>
+
+    <string name="search_here">यहाँ खोज्नुहोस्..</string>
+
+    <string-array name="type_of_livestock">
+        <item name="cow">गाई</item>
+        <item name="Buffalo">भैंसी</item>
+        <item name="ox">गोरु</item>
+        <item name="goat">बाख्रा</item>
+        <item name="sheep">भेडा</item>
+        <item name="chicken">कुखुरा</item>
+        <item name="duck">हाँस</item>
+        <item name="pigeon">परेवा</item>
+        <item name="other_animal">अन्य</item>
+    </string-array>
+
+    <string-array name="industrial_crop_spinner">
+        <item name="sugarcane">उखु</item>
+        <item name="fish">माछा</item>
+    </string-array>
+    <string-array name="pulse_crop_spinner">
+        <item name="lentil">मुसुरो</item>
+        <item name="pigeon_pea">रहर</item>
+        <item name="cowpea">काउपी</item>
+        <item name="kidney_bean">राज्मा</item>
+    </string-array>
+
+    <string-array name="veg_crop_spinner">
+        <item name="patato">आलु</item>
+        <item name="tomato">टमाटर</item>
+        <item name="cauliflower">फूलगोभी</item>
+        <item name="cucumber">कांक्रो</item>
+        <item name="capsicum">क्याप्सिकम</item>
+        <item name="mustard">तोरी</item>
+        <item name="cabbage">बन्दकोबी</item>
+        <item name="onion">प्याज</item>
+        <item name="garlic">लसुन</item>
+        <item name="carrot">गाजर</item>
+        <item name="brinjal">बैंगन</item>
+        <item name="lady_finger">लेडीफिंगर</item>
+    </string-array>
+    <string-array name="food_crop_spinner">
+        <item name="chaite_rice">चैते धान</item>
+        <item name="monsoon_rice">मौसमी धान</item>
+        <item name="maize">मकै</item>
+        <item name="wheat">गहुँ</item>
+    </string-array>
+
+
+</resources>
